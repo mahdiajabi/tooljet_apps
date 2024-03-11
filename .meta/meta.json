@@ -1,10 +1,10 @@
 {
   "da7f44db-7dd7-4019-9b49-78eef06936b8": {
     "gitAppName": "calendar",
-    "lastCommitMessage": " v1.5.2 Version of app calendar promoted from development to staging",
-    "gitVersionId": "b5a71cab-0424-4b1f-b355-36a90fc4f295",
-    "lastpushDate": "2024-03-11T16:00:29.337Z",
-    "gitVersionName": "v1.5.2",
+    "lastCommitMessage": " v1.5.3 Version of app calendar promoted from development to staging",
+    "gitVersionId": "5db8de34-3211-4a43-81f5-24639657f18f",
+    "lastpushDate": "2024-03-11T16:24:04.027Z",
+    "gitVersionName": "v1.5.3",
     "lastCommitUser": "mahdiajabi "
   }
 }
