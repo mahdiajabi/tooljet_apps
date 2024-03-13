@@ -35,10 +35,10 @@
             "showViewerNavigation": false,
             "homePageId": "c7a91720-e808-44ba-94d5-6041c208af5c",
             "appId": "043b4540-196f-4a65-acf8-e9fb382377f7",
-            "currentEnvironmentId": "1be39eb2-e75a-4e82-bd7b-1633cd6fb102",
+            "currentEnvironmentId": "71dd0000-b568-4fad-8970-ee7a309eb0a9",
             "promotedFrom": null,
             "createdAt": "2024-03-13T10:06:49.000Z",
-            "updatedAt": "2024-03-13T10:10:19.155Z"
+            "updatedAt": "2024-03-13T10:38:02.412Z"
           },
           "components": [
             {
@@ -193,7 +193,7 @@
                 {
                   "id": "a06f5e15-c3ea-4c9c-9d78-5008f59f04b8",
                   "type": "desktop",
-                  "top": 580.0000038146973,
+                  "top": 560.0000152587891,
                   "left": 37.20929694898201,
                   "width": 5,
                   "height": 30,
@@ -246,68 +246,11 @@
                 {
                   "id": "2d9c8f48-02ef-4479-917e-528971f23369",
                   "type": "desktop",
-                  "top": 529.9999694824219,
-                  "left": 32.55813953488372,
+                  "top": 499.9999694824219,
+                  "left": 32.558143179023304,
                   "width": 9,
                   "height": 40,
                   "componentId": "003b4ef8-75ae-40b9-9228-e03e1d71167b"
-                }
-              ]
-            },
-            {
-              "id": "9893db08-eb46-47ed-862e-c0519817b5a7",
-              "name": "name",
-              "type": "TextInput",
-              "pageId": "83de97b2-ff92-4060-9368-c45cb0b0cb26",
-              "parent": null,
-              "properties": {
-                "label": {
-                  "value": ""
-                },
-                "placeholder": {
-                  "value": "name"
-                },
-                "visibility": {
-                  "fxActive": true,
-                  "value": "{{true}}"
-                }
-              },
-              "general": null,
-              "styles": {},
-              "generalStyles": null,
-              "displayPreferences": {
-                "showOnDesktop": {
-                  "value": "{{true}}"
-                },
-                "showOnMobile": {
-                  "value": "{{false}}"
-                }
-              },
-              "validation": {
-                "mandatory": {
-                  "value": "{{true}}"
-                }
-              },
-              "createdAt": "2024-03-13T10:06:48.940Z",
-              "updatedAt": "2024-03-13T10:06:48.940Z",
-              "layouts": [
-                {
-                  "id": "9879204d-c63b-4091-8622-46c74f6ba06b",
-                  "type": "mobile",
-                  "top": 330,
-                  "left": 18.604651162790695,
-                  "width": 10,
-                  "height": 40,
-                  "componentId": "9893db08-eb46-47ed-862e-c0519817b5a7"
-                },
-                {
-                  "id": "2b318820-a2b3-4202-8244-16265d015563",
-                  "type": "desktop",
-                  "top": 479.9999885559082,
-                  "left": 32.55814088655219,
-                  "width": 9,
-                  "height": 40,
-                  "componentId": "9893db08-eb46-47ed-862e-c0519817b5a7"
                 }
               ]
             },
@@ -457,7 +400,7 @@
                   "id": "fbdbb210-2dbf-4e9c-a2a3-5865a4d876aa",
                   "type": "desktop",
                   "top": 50.00004577636719,
-                  "left": 16.279071589511652,
+                  "left": 16.27907141029167,
                   "width": 28,
                   "height": 410,
                   "componentId": "37f02f4c-88b1-4601-8a90-ff75ac6fdf8d"
@@ -861,34 +804,19 @@
               "updatedAt": "2024-03-13T10:06:48.940Z"
             },
             {
-              "id": "976d2b92-bc68-4f6c-ba43-af4197cfa168",
-              "name": "SubmitNewPayment",
-              "options": {
-                "mode": "sql",
-                "transformationLanguage": "javascript",
-                "enableTransformation": false,
-                "query": "INSERT INTO payment_tb(name, amount)\nVALUES('{{components.name.value}}', '{{components.amount.value}}');",
-                "runOnPageLoad": false
-              },
-              "dataSourceId": "4439846f-b2e0-4c2b-9bb6-14d977cb1336",
-              "appVersionId": "6527f486-3230-4197-8b31-b2980691209f",
-              "createdAt": "2024-03-13T10:06:48.940Z",
-              "updatedAt": "2024-03-13T10:06:48.940Z"
-            },
-            {
               "id": "f311c558-9060-4c3b-b324-b5ce60328195",
               "name": "users",
               "options": {
                 "mode": "sql",
                 "transformationLanguage": "javascript",
                 "enableTransformation": false,
-                "query": "select * from payment_tb;",
+                "query": "select * from payment_tb\nwhere name='{{queries.discord_access.data.username}}';",
                 "runOnPageLoad": true
               },
               "dataSourceId": "4439846f-b2e0-4c2b-9bb6-14d977cb1336",
               "appVersionId": "6527f486-3230-4197-8b31-b2980691209f",
               "createdAt": "2024-03-13T10:06:48.940Z",
-              "updatedAt": "2024-03-13T10:06:51.675Z"
+              "updatedAt": "2024-03-13T10:35:29.835Z"
             },
             {
               "id": "4a990e9d-7303-43c2-8208-523f6498a75e",
@@ -928,6 +856,21 @@
               "appVersionId": "6527f486-3230-4197-8b31-b2980691209f",
               "createdAt": "2024-03-13T10:06:48.940Z",
               "updatedAt": "2024-03-13T10:08:46.222Z"
+            },
+            {
+              "id": "976d2b92-bc68-4f6c-ba43-af4197cfa168",
+              "name": "SubmitNewPayment",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": false,
+                "query": "INSERT INTO payment_tb(name, amount)\nVALUES('{{queries.discord_access.data.username}}', '{{components.amount.value}}');",
+                "runOnPageLoad": false
+              },
+              "dataSourceId": "4439846f-b2e0-4c2b-9bb6-14d977cb1336",
+              "appVersionId": "6527f486-3230-4197-8b31-b2980691209f",
+              "createdAt": "2024-03-13T10:06:48.940Z",
+              "updatedAt": "2024-03-13T10:37:44.840Z"
             }
           ],
           "dataSources": [
@@ -997,10 +940,10 @@
               "showViewerNavigation": false,
               "homePageId": "c7a91720-e808-44ba-94d5-6041c208af5c",
               "appId": "043b4540-196f-4a65-acf8-e9fb382377f7",
-              "currentEnvironmentId": "1be39eb2-e75a-4e82-bd7b-1633cd6fb102",
+              "currentEnvironmentId": "71dd0000-b568-4fad-8970-ee7a309eb0a9",
               "promotedFrom": null,
               "createdAt": "2024-03-13T10:06:49.000Z",
-              "updatedAt": "2024-03-13T10:10:19.155Z"
+              "updatedAt": "2024-03-13T10:38:02.412Z"
             }
           ],
           "appEnvironments": [
