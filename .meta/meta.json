@@ -6,5 +6,13 @@
     "lastpushDate": "2024-03-11T16:31:09.475Z",
     "gitVersionName": "v1.5.6",
     "lastCommitUser": "mahdiajabi "
+  },
+  "043b4540-196f-4a65-acf8-e9fb382377f7": {
+    "gitAppName": "payment app",
+    "lastCommitMessage": " v1.1 Version of app payment app promoted from development to staging",
+    "gitVersionId": "3c7f66ae-40cb-4a4d-a07c-b37d8f19965c",
+    "lastpushDate": "2024-03-13T09:12:54.648Z",
+    "gitVersionName": "v1.1",
+    "lastCommitUser": "mahdiajabi "
   }
 }
