@@ -9,10 +9,10 @@
   },
   "043b4540-196f-4a65-acf8-e9fb382377f7": {
     "gitAppName": "payment app",
-    "lastCommitMessage": " v1.7 Version of app payment app promoted from development to staging",
-    "gitVersionId": "6527f486-3230-4197-8b31-b2980691209f",
-    "lastpushDate": "2024-03-13T10:38:07.245Z",
-    "gitVersionName": "v1.7",
+    "lastCommitMessage": " v1.8 Version of app payment app promoted from development to staging",
+    "gitVersionId": "6fe776ad-4484-43cd-8e97-1ca0cbef62af",
+    "lastpushDate": "2024-03-14T07:14:38.642Z",
+    "gitVersionName": "v1.8",
     "lastCommitUser": "mahdiajabi "
   }
 }
