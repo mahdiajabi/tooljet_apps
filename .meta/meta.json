@@ -9,10 +9,10 @@
   },
   "043b4540-196f-4a65-acf8-e9fb382377f7": {
     "gitAppName": "payment app",
-    "lastCommitMessage": " v1.17 Version of app payment app promoted from development to staging",
-    "gitVersionId": "a7fc83b7-e135-429f-b7f5-ac3b5c7b9ccb",
-    "lastpushDate": "2024-03-18T16:15:11.945Z",
-    "gitVersionName": "v1.17",
+    "lastCommitMessage": "add image link and delete payment",
+    "gitVersionId": "0e4660d4-58a8-4123-9b3a-9a1bbda73161",
+    "lastpushDate": "2024-03-19T10:48:47.424Z",
+    "gitVersionName": "v1.18",
     "lastCommitUser": "mahdiajabi "
   }
 }
